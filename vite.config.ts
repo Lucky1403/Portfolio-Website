@@ -6,5 +6,6 @@ export default defineConfig({
     plugins: [react()],
     define: {
         __BASE_PATH__: '"/"'
-    }
+    },
+    base: process.env.VITE_BASE_PATH || "/Portfolio-Website",
 })
