@@ -28,7 +28,7 @@ export default function ProfileSection() {
             <div className="space-y-4">
               <div className="flex items-center text-gray-300">
                 <i className="ri-calendar-line text-purple-400 mr-3 w-5"></i>
-                <span>Date of Birth: March 15, 2005</span>
+                <span>Date of Birth: March 14, 2005</span>
               </div>
               <div className="flex items-center text-gray-300">
                 <i className="ri-map-pin-line text-cyan-400 mr-3 w-5"></i>
