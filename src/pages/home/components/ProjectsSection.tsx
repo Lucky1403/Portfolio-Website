@@ -58,7 +58,7 @@ export default function ProjectsSection() {
       image: '/assets/Portfolio Website.png',
       tech: ['HTML', 'CSS', 'JavaScript', 'Vite'],
       features: ['Responsive Design', 'Interactive UI', 'Project Showcase','Skills & Experience'],
-      // github: 'https://github.com/Lucky1403',
+      github: 'https://github.com/Lucky1403/Invoice-Generation-Website',
       // demo: '#'
     },
     {
