@@ -125,9 +125,8 @@ export default function ProjectsSection() {
       image: '/assets/Deepseek NPC.png',
       tech: ['Unity', 'C#', 'API Integration','Wit.ai'],
       features: ['Real-time Interaction', 'Text-to-Speech', 'Speech-to-Text'],
-      // github: 'https://github.com/Lucky1403/AR-Fruit-Slash',
-      // demo: '#',
-      status: 'In Development'
+      github: 'https://github.com/Lucky1403/Deepseek-NPC',
+      demo: 'https://youtu.be/GL3c6sDD5Gk',
     }
   ];
 
