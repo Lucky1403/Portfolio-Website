@@ -139,6 +139,18 @@ export default function ProjectsSection() {
       github: 'https://github.com/Lucky1403/Solar-System-AR',
       // demo: '#',
       status: 'In Development'
+    },
+    {
+      id: 13,
+      title: 'Box Cricket VR',
+      category: 'vr',
+      description: 'Box Cricket VR brings the high-octane energy of indoor cricket to a fully immersive virtual stadium, allowing players to step onto the pitch from any lab or workspace.',
+      image: '/assets/Box Cricket.png',
+      tech: ['Unity', 'C#', 'Unity Meta Movement SDK'],
+      features: ['Immersive Experience','Realistic Physics','Full Body Tracking'],
+      // github: 'https://github.com/Lucky1403/Solar-System-AR',
+      // demo: '#',
+      status: 'In Development'
     }
   ];
 
