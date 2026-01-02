@@ -108,7 +108,7 @@ export default function ProjectsSection() {
     {
       id: 10,
       title: 'AR Fruit Slash',
-      category: 'vr',
+      category: 'ar',
       description: 'Created a Unity-based Augmented Reality (AR) game leverages AR Foundation to project the addictive fruit-slicing action onto any real-world surface, turning your environment into a dynamic arcade.',
       image: '/assets/AR Fruit Slash.png',
       tech: ['Unity', 'C#', 'AR Foundation', 'AR Core'],
@@ -132,11 +132,11 @@ export default function ProjectsSection() {
       id: 12,
       title: 'Solar System AR',
       category: 'ar',
-      description: 'Currently developing a sci-fi VR survival game set on a space station invaded by invisible aliens. Players must protect themselves and the station using Unity VR.',
-      image: 'https://readdy.ai/api/search-image?query=Sci-fi%20VR%20survival%20game%20screenshot%20showing%20futuristic%20space%20station%20interior%20with%20dark%20corridors%2C%20invisible%20alien%20threats%2C%20high-tech%20equipment%2C%20atmospheric%20lighting%2C%20Unity%20game%20engine%20graphics%2C%20immersive%20VR%20experience%20with%20holographic%20interfaces%20and%20space%20environment&width=600&height=400&seq=echoes-void&orientation=landscape',
+      description: 'Developed a markerless AR simulation that projects a precised and accurate, interactive 3D Solar System onto any surface using real-time plane detection and engages in interactive learning.',
+      image: '/assets/Solar System AR.png',
       tech: ['Unity', 'C#', 'Vuforia Engine SDK'],
-      features: ['Markerless Tracking', 'Hand Tracking via Controllers', 'Unique Mechanics', 'AI Enemies'],
-      // github: 'https://github.com/Lucky1403',
+      features: ['Markerless Tracking','Interactive learning','Ground Plane Detection'],
+      github: 'https://github.com/Lucky1403/Solar-System-AR',
       // demo: '#',
       status: 'In Development'
     }
