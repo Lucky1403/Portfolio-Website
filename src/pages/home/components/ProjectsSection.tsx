@@ -135,7 +135,7 @@ export default function ProjectsSection() {
       description: 'Developed a markerless AR simulation that projects a precised and accurate, interactive 3D Solar System onto any surface using real-time plane detection and engages in interactive learning.',
       image: '/assets/Solar System AR.png',
       tech: ['Unity', 'C#', 'Vuforia Engine SDK'],
-      features: ['Markerless Tracking','Interactive learning','Ground Plane Detection'],
+      features: ['Markerless AR','Interactive learning','Ground Plane Detection'],
       github: 'https://github.com/Lucky1403/Solar-System-AR',
       // demo: '#',
       status: 'In Development'
