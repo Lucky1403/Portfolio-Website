@@ -127,7 +127,7 @@ export default function ProfileSection() {
                 <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 mr-3 flex-shrink-0"></div>
                 <div>
                   <p className="text-white font-medium">Academic Excellence</p>
-                  <p className="text-gray-400 text-sm">Consistent top performer with 9.72 CGPA</p>
+                  <p className="text-gray-400 text-sm">Consistent top performer with 9.63 CGPA</p>
                 </div>
               </div>
             </div>
