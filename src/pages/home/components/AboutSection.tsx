@@ -18,7 +18,7 @@ export default function AboutSection() {
                 Education & Background
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Currently pursuing Bachelor of Technology in Computer Science (Gaming Technology) at Vellore Institute of Technology, Bhopal with an impressive 9.72 CGPA. Strong academic foundation with consistent excellence throughout my educational journey.
+                Currently pursuing Bachelor of Technology in Computer Science (Gaming Technology) at Vellore Institute of Technology, Bhopal with an impressive 9.63 CGPA. Strong academic foundation with consistent excellence throughout my educational journey.
               </p>
             </div>
 
