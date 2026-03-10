@@ -80,7 +80,9 @@ export default function ContactSection() {
   const socialLinks = [
     { icon: 'ri-linkedin-fill', url: 'https://linkedin.com/in/lucky-kumar-', color: 'text-blue-400' },
     { icon: 'ri-github-fill', url: 'https://github.com/Lucky1403', color: 'text-gray-400' },
-    { icon: 'ri-mail-line', url: 'mailto:lucky.23062289@gmail.com', color: 'text-purple-400' }
+    { icon: 'ri-mail-line', url: 'mailto:lucky.23062289@gmail.com', color: 'text-purple-400' },
+    { icon: 'ri-instagram-line', url: 'https://www.instagram.com/its_lucky_1403?igsh=OGxya3JxNXIyNHV1', color: 'text-pink-400' },
+    { icon: 'ri-facebook-circle-fill', url: 'https://www.facebook.com/profile.php?id=100017609916457', color: 'text-blue-500' }
   ];
 
   return (

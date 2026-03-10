@@ -16,7 +16,7 @@ export default function ProfileSection() {
             <div className="text-center mb-6">
               <div className="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-gradient-to-r from-purple-500 to-cyan-500 p-1">
                 <img
-                  src="/assets/profile-picture.png"
+                  src={`${import.meta.env.BASE_URL}assets/profile-picture.png`}
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full"
                 />

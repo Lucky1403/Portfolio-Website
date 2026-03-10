@@ -44,7 +44,7 @@ export default function ProjectsSection() {
       title: 'Battle of Cerium',
       category: 'game',
       description: 'Designed a Third-Person Shooter (TPS) game with engaging story-driven gameplay in Unity. Enemy spaceships invaded on your home planet Cerium, and you must defend it!',
-      image: "/assets/Battle of Cerium Image.png",
+      image: `${import.meta.env.BASE_URL}assets/Battle of Cerium Image.png`,
       tech: ['Unity', 'C#', 'Game Design'],
       features: ['Story Mode', 'Combat System', 'Dynamic AI'],
       github: 'https://github.com/Lucky1403/Battle-of-Cerium',
@@ -55,9 +55,9 @@ export default function ProjectsSection() {
       title: 'Portfolio Website',
       category: 'web',
       description: 'Created a personal responsive portfolio website showcasing my Profile, Interests, Experience, Recognition & Achievements, Projects and technical skills.',
-      image: '/assets/Portfolio Website.png',
+      image: `${import.meta.env.BASE_URL}assets/Portfolio Website.png`,
       tech: ['HTML', 'CSS', 'JavaScript', 'Vite'],
-      features: ['Responsive Design', 'Interactive UI', 'Project Showcase','Skills & Experience'],
+      features: ['Responsive Design', 'Interactive UI', 'Project Showcase', 'Skills & Experience'],
       github: 'https://github.com/Lucky1403/Portfolio-Website',
       demo: 'https://portfolio-website-eight-bay-36.vercel.app/'
     },
@@ -110,7 +110,7 @@ export default function ProjectsSection() {
       title: 'AR Fruit Slash',
       category: 'ar',
       description: 'Created a Unity-based Augmented Reality (AR) game leverages AR Foundation to project the addictive fruit-slicing action onto any real-world surface, turning your environment into a dynamic arcade.',
-      image: '/assets/AR Fruit Slash.png',
+      image: `${import.meta.env.BASE_URL}assets/AR Fruit Slash.png`,
       tech: ['Unity', 'C#', 'AR Foundation', 'AR Core'],
       features: ['Mobile Platform', 'Engaging', 'Augmented Reality'],
       github: 'https://github.com/Lucky1403/AR-Fruit-Slash',
@@ -122,8 +122,8 @@ export default function ProjectsSection() {
       title: 'Deepseek Based NPC',
       category: 'vr',
       description: 'Created a DeepSeek API-powered NPC offers fully customizable, real-time conversational intelligence for virtual worlds, allowing its role and knowledge to be defined entirely by the use case.',
-      image: '/assets/Deepseek NPC.png',
-      tech: ['Unity', 'C#', 'API Integration','Wit.ai'],
+      image: `${import.meta.env.BASE_URL}assets/Deepseek NPC.png`,
+      tech: ['Unity', 'C#', 'API Integration', 'Wit.ai'],
       features: ['Real-time Interaction', 'Text-to-Speech', 'Speech-to-Text'],
       github: 'https://github.com/Lucky1403/Deepseek-NPC',
       demo: 'https://youtu.be/GL3c6sDD5Gk',
@@ -133,9 +133,9 @@ export default function ProjectsSection() {
       title: 'Solar System AR',
       category: 'ar',
       description: 'Developed a markerless AR simulation that projects a precised and accurate, interactive 3D Solar System onto any surface using real-time plane detection and engages in interactive learning.',
-      image: '/assets/Solar System AR.png',
+      image: `${import.meta.env.BASE_URL}assets/Solar System AR.png`,
       tech: ['Unity', 'C#', 'Vuforia Engine SDK'],
-      features: ['Markerless AR','Interactive learning','Ground Plane Detection'],
+      features: ['Markerless AR', 'Interactive learning', 'Ground Plane Detection'],
       github: 'https://github.com/Lucky1403/Solar-System-AR',
       // demo: '#',
       status: 'In Development'
@@ -145,9 +145,9 @@ export default function ProjectsSection() {
       title: 'Box Cricket VR',
       category: 'vr',
       description: 'Box Cricket VR brings the high-octane energy of indoor cricket to a fully immersive virtual stadium, allowing players to step onto the pitch from any lab or workspace.',
-      image: '/assets/Box Cricket.png',
+      image: `${import.meta.env.BASE_URL}assets/Box Cricket.png`,
       tech: ['Unity', 'C#', 'Unity Meta Movement SDK'],
-      features: ['Immersive Experience','Realistic Physics','Full Body Tracking'],
+      features: ['Immersive Experience', 'Realistic Physics', 'Full Body Tracking'],
       // github: 'https://github.com/Lucky1403/Solar-System-AR',
       // demo: '#',
       status: 'In Development'
@@ -158,7 +158,7 @@ export default function ProjectsSection() {
       category: 'web',
       description: 'Emissions Eye is an interactive web platform designed to quantify personal carbon footprints through dynamic user assessments and historical data tracking. It features a competitive leaderboard and visualizes progress over time using integrated data analytics to encourage sustainable lifestyle changes.',
       image: 'https://readdy.ai/api/search-image?query=Sci-fi%20VR%20survival%20game%20screenshot%20showing%20futuristic%20space%20station%20interior%20with%20dark%20corridors%2C%20invisible%20alien%20threats%2C%20high-tech%20equipment%2C%20atmospheric%20lighting%2C%20Unity%20game%20engine%20graphics%2C%20immersive%20VR%20experience%20with%20holographic%20interfaces%20and%20space%20environment&width=600&height=400&seq=echoes-void&orientation=landscape',
-      tech: ['HTML', 'CSS', 'Javascript','Flask','MySQL'],
+      tech: ['HTML', 'CSS', 'Javascript', 'Flask', 'MySQL'],
       features: ['Spatial Audio', 'Hand Tracking via Controllers', 'Unique Mechanics', 'AI Enemies'],
       // github: 'https://github.com/Lucky1403',
       // demo: '#',
@@ -175,8 +175,8 @@ export default function ProjectsSection() {
     { id: 'python', label: 'Python', count: projects.filter(p => p.category === 'python').length }
   ];
 
-  const filteredProjects = activeFilter === 'all' 
-    ? projects 
+  const filteredProjects = activeFilter === 'all'
+    ? projects
     : projects.filter(project => project.category === activeFilter);
 
   return (
@@ -197,11 +197,10 @@ export default function ProjectsSection() {
             <button
               key={filter.id}
               onClick={() => setActiveFilter(filter.id)}
-              className={`px-6 py-3 rounded-full border transition-all duration-300 whitespace-nowrap cursor-pointer ${
-                activeFilter === filter.id
+              className={`px-6 py-3 rounded-full border transition-all duration-300 whitespace-nowrap cursor-pointer ${activeFilter === filter.id
                   ? 'bg-gradient-to-r from-purple-500 to-cyan-500 text-white border-transparent shadow-lg'
                   : 'bg-white/5 text-gray-300 border-white/10 hover:border-purple-500/50 hover:text-white'
-              }`}
+                }`}
             >
               {filter.label} ({filter.count})
             </button>
@@ -222,12 +221,11 @@ export default function ProjectsSection() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 <div className="absolute top-4 right-4 flex gap-2">
-                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${
-                    project.category === 'vr' ? 'bg-purple-500/80 text-white' :
-                    project.category === 'game' ? 'bg-cyan-500/80 text-white' :
-                    project.category === 'web' ? 'bg-pink-500/80 text-white' :
-                    'bg-green-500/80 text-white'
-                  }`}>
+                  <span className={`px-3 py-1 rounded-full text-xs font-medium ${project.category === 'vr' ? 'bg-purple-500/80 text-white' :
+                      project.category === 'game' ? 'bg-cyan-500/80 text-white' :
+                        project.category === 'web' ? 'bg-pink-500/80 text-white' :
+                          'bg-green-500/80 text-white'
+                    }`}>
                     {project.category.toUpperCase()}
                   </span>
                   {project.status && (
@@ -237,7 +235,7 @@ export default function ProjectsSection() {
                   )}
                 </div>
               </div>
-              
+
               <div className="p-6">
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-purple-400 transition-colors duration-300">
                   {project.title}
@@ -245,7 +243,7 @@ export default function ProjectsSection() {
                 <p className="text-gray-300 text-sm mb-4 leading-relaxed">
                   {project.description}
                 </p>
-                
+
                 {project.features && (
                   <div className="mb-4">
                     <h4 className="text-sm font-semibold text-gray-400 mb-2">Key Features:</h4>
@@ -261,7 +259,7 @@ export default function ProjectsSection() {
                     </div>
                   </div>
                 )}
-                
+
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((tech, index) => (
                     <span
@@ -272,7 +270,7 @@ export default function ProjectsSection() {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-4">
                   <a
                     href={project.github}
