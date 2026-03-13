@@ -28,11 +28,11 @@ export default function AboutSection() {
                 Work Experience
               </h3>
               <p className="text-gray-300 leading-relaxed">
-                Immersive Experience Designer | Wabric January 2026 – Present <br />Resposible for the design and development of immersive AR/VR solutions, specializing in 3D modeling, animation, and interactive spatial environments.
+                <b>Immersive Experience Designer</b> | <i>Wabric</i> (January 2026 – Present) <br />Resposible for the design and development of immersive AR/VR solutions, specializing in 3D modeling, animation, and interactive spatial environments.
               </p>
               <br />
               <p className="text-gray-300 leading-relaxed">
-                XR (Extended Reality) Intern | IIT Delhi May 2025 – July 2025 <br />Completed an intensive XR internship, gaining hands-on experience with cutting-edge immersive technologies and research methodologies in virtual and augmented reality applications.
+                <b>XR (Extended Reality) Intern</b> | <i>IIT Delhi</i> (May 2025 – July 2025) <br />Completed an intensive XR internship, gaining hands-on experience with cutting-edge immersive technologies and research methodologies in virtual and augmented reality applications.
               </p>
             </div>
 
