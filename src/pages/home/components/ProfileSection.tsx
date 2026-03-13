@@ -60,9 +60,9 @@ export default function ProfileSection() {
               <div className="bg-gradient-to-r from-cyan-500/10 to-pink-500/10 rounded-xl p-4 border border-cyan-500/20">
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-white font-medium">XR Research Intern</span>
-                  <span className="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded-full">Completed</span>
+                  <span className="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded-full">In Progress</span>
                 </div>
-                <p className="text-gray-400 text-sm">IIT Delhi (May-July 2025)</p>
+                <p className="text-gray-400 text-sm">Wabric (January-March 2026)</p>
               </div>
 
               <div className="bg-gradient-to-r from-pink-500/10 to-purple-500/10 rounded-xl p-4 border border-pink-500/20">
@@ -70,7 +70,7 @@ export default function ProfileSection() {
                   <span className="text-white font-medium">Project Development</span>
                   <span className="text-xs bg-orange-500/20 text-orange-400 px-2 py-1 rounded-full">In Progress</span>
                 </div>
-                <p className="text-gray-400 text-sm">Echoes in the Void - VR Game</p>
+                <p className="text-gray-400 text-sm">Box Cricket VR</p>
               </div>
 
               <div className="bg-gradient-to-r from-purple-500/10 to-cyan-500/10 rounded-xl p-4 border border-purple-500/20">
